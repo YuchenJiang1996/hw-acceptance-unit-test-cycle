@@ -69,5 +69,4 @@ class MoviesController < ApplicationController
     end
     @movies = Movie.where(:director => @movie.director)
   end
-  
 end
